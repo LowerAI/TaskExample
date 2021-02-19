@@ -7,7 +7,7 @@ namespace AsyncAwaitTaskDemo
 {
     class Program3
     {
-        async static Task Main(string[] args)
+        async static Task Main3(string[] args)
         {
             Console.WriteLine($"1:{Thread.CurrentThread.ManagedThreadId}");
             var client = new HttpClient();
